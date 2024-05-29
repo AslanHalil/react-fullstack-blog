@@ -122,5 +122,38 @@ $lightgreen: #b9e7e7;
         height: 50px;
       }
     }
+
+    //HOME
+    .home {
+      .posts {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 150px;
+
+        .post {
+          display: flex;
+          gap: 100px;
+
+          &:nth-child(2n + 1) {
+            flex-direction: row-reverse;
+          }
+
+          .img {
+            flex: 2;
+
+            img {
+              width: 100%;
+              max-height: 400px;
+              object-fit: cover;
+            }
+
+          }
+          .content {
+            flex: 3;
+          }
+        }
+      }
+    }
   }
 }

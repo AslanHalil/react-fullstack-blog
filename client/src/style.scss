@@ -108,9 +108,22 @@ $lightgreen: #b9e7e7;
             background-color: white;
             border: 1px solid teal;
           }
-
         }
+      }
+    }
 
+    //Footer
+    footer {
+      margin-top: 100px;
+      padding: 20px;
+      background-color: $lightgreen;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 12px;
+
+      img {
+        height: 50px;
       }
     }
   }

@@ -2,6 +2,7 @@ import React from "react";
 import Edit from '../img/edit.png';
 import Delete from '../img/delete.png';
 import {Link} from "react-router-dom";
+import Menu from "../components/Menu.jsx";
 
 
 const Single = () => {
@@ -54,7 +55,7 @@ const Single = () => {
                     convallis, nisl neque finibus eros, a finibus enim ex accumsan velit. Duis at eleifend risus.
                 </p>
             </div>
-            <div className="menu">menu</div>
+            <Menu/>
         </div>
     )
 }
